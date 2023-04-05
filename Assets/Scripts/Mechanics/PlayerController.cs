@@ -33,13 +33,16 @@ namespace Platformer.Mechanics
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
         /*internal new*/ public Collider2D collider2d;
-        /*internal new*/ public AudioSource audioSource;
+        /*internal new*/ internal AudioSource audioSource;
         public Health health;
+        public HealthBarController hbc;
         public bool controlEnabled = true;
+        
+        
 
         bool jump;
         Vector2 move;
-        SpriteRenderer spriteRenderer;
+        public SpriteRenderer spriteRenderer;
         internal Animator animator;
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
@@ -52,6 +55,9 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+	    hbc = GetComponent<HealthBarController>();
+	    Debug.Log("EL HBC ES");
+	    Debug.Log(hbc);	    
         }
 
         protected override void Update()

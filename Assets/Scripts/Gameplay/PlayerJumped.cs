@@ -17,6 +17,7 @@ namespace Platformer.Gameplay
       	    AudioClip selectedAudio = audioClips[Random.Range(0, audioClips.Length)];
             if (player.audioSource && selectedAudio)
                 player.audioSource.PlayOneShot(selectedAudio);
+            
         }
     }
 }
