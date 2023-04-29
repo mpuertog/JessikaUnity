@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 131581e6e50f8d44b80da8fd1bf988dc
+guid: 9b725ebcaed166d50bfe797d025bcda5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -120,19 +120,19 @@ TextureImporter:
       name: corriendo_0
       rect:
         serializedVersion: 2
-        x: 185
-        y: 130
-        width: 570
-        height: 730
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 110
+        y: 1155
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.64773977, y: 0.4223882}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d12b23e5de105fbf800592f8ff683bc
-      internalID: -1181718525
+      spriteID: b1c0c3e85ebabde499d41d00261bacf0
+      internalID: -60330355
       vertices: []
       indices: 
       edges: []
@@ -141,19 +141,19 @@ TextureImporter:
       name: corriendo_1
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 130
-        width: 570
-        height: 730
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1120
+        y: 1155
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.6369296, y: 0.4470828}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eaf7a170b4ee3e408405f4194eeabc1
-      internalID: 1581382666
+      spriteID: 00c59528d1065a900966f61b3fd354c8
+      internalID: 684164390
       vertices: []
       indices: 
       edges: []
@@ -162,19 +162,19 @@ TextureImporter:
       name: corriendo_2
       rect:
         serializedVersion: 2
-        x: 2193
-        y: 130
-        width: 570
-        height: 730
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2130
+        y: 1155
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.62251604, y: 0.47883317}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff54825f7a262bef92eb475996884c9
-      internalID: 1816222282
+      spriteID: 729c4b4c42cf336e49956ac26d359a98
+      internalID: 1639908941
       vertices: []
       indices: 
       edges: []
@@ -183,19 +183,103 @@ TextureImporter:
       name: corriendo_3
       rect:
         serializedVersion: 2
-        x: 3197
-        y: 130
-        width: 570
-        height: 730
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3125
+        y: 1158
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.6333259, y: 0.4506107}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69634ce943dce631909bbe3115af16e
-      internalID: 1024982065
+      spriteID: 53e463bebad5d929598ddec8dbd191f4
+      internalID: 524317862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corriendo_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 153
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.6549466, y: 0.43649927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b70613e2cf0e678290cc879283bb0
+      internalID: -508485994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corriendo_5
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 153
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.6333264, y: 0.45766613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5f3302e833b3034adc1e8b5d741df2
+      internalID: 711742594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corriendo_6
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 153
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.62611955, y: 0.47883305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1a0f090375eb97e8f328fc44628ca6
+      internalID: -786559035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corriendo_7
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 150
+        width: 700
+        height: 715
+      alignment: 9
+      pivot: {x: 0.6297227, y: 0.4541384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d622f7442bea4f09d9e0a23146fd10
+      internalID: -273037452
       vertices: []
       indices: 
       edges: []
@@ -211,10 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      corriendo_0: -1181718525
-      corriendo_1: 1581382666
-      corriendo_2: 1816222282
-      corriendo_3: 1024982065
+      corriendo_0: -60330355
+      corriendo_1: 684164390
+      corriendo_2: 1639908941
+      corriendo_3: 524317862
+      corriendo_4: -508485994
+      corriendo_5: 711742594
+      corriendo_6: -786559035
+      corriendo_7: -273037452
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
